@@ -233,7 +233,7 @@ $ npm i dva-loading --save
 + loading: state.loading.models.users,
 ```
 
-具体参考这个 [Commit](https://github.com/dvajs/dva-example-user-dashboard/commit/e256165312e5fe0e63c29cc1cba96909b66b5092) 。
+具体参考这个 [Commit](https://github.com/fightingljm/user-dashboard/commit/a104aa6eab80eb5e77c2065d0b3c5ecaa40904e6) 。
 
 切换到浏览器，你的用户列表有 loading 了没?
 
