@@ -248,7 +248,7 @@ $ npm i dva-loading --save
 
 我们用的是思路 2 的方式，好处是用户可以直接访问到 page 2 或其他页面。
 
-参考这个 [Commit](https://github.com/dvajs/dva-example-user-dashboard/commit/b6203eae7000225ae1d0954841c93aeec66df1d5) 。
+参考这个 [Commit](https://github.com/fightingljm/user-dashboard/commit/586b3757346bb5f90b89170afe9d032736a830d7) 。
 
 **Step 10. 处理用户删除**
 

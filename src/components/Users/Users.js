@@ -7,14 +7,17 @@ import { PAGE_SIZE } from '../../constants';
 
 function Users({ dispatch, list: dataSource, loading, total, page: current }) {
   function deleteHandler(id) {
-    console.warn(`TODO: ${id}`);
+    dispatch({
+      type: 'users/remove',
+      payload: id,
+    });
   }
 
   function pageChangeHandler(page) {
     dispatch(routerRedux.push({
       pathname: '/users',
-      query: { page},
-    }))
+      query: { page },
+    }));
   }
 
   const columns = [
