@@ -19,8 +19,8 @@ export default {
         type: 'save',
         payload: {
           data,
-          total: parseInt(headers['x-total-count']),
-          total: parseInt(page,10),
+          total: parseInt(headers['x-total-count'], 10),
+          page: parseInt(page, 10),
         },
       });
     },

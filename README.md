@@ -188,7 +188,7 @@ $ dva g component Users/Users
 ```
 
 然后修改生成出来的 `src/components/Users/Users.js` 和 `src/components/Users/Users.css`，
-并在 `src/routes/Users.js` 中引用他。具体参考这个 [Commit](https://github.com/dvajs/dva-example-user-dashboard/commit/85a7b5ac61197227e9c9e92a851f227ce2902a22)。
+并在 `src/routes/Users.js` 中引用他。具体参考这个 [Commit](https://github.com/fightingljm/user-dashboard/commit/3dc1b698e66dae46b9de952ae578a1bed134b920)。
 
 需留意两件事：
 
