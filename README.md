@@ -322,7 +322,7 @@ export function patch(id, values) {
 },
 ```
 
-最后是 component，详见 [Commit](https://github.com/dvajs/dva-example-user-dashboard/commit/ed7a4ee584eca368c1250cd0ff6d0daee22de124)。
+最后是 component，详见 [Commit](https://github.com/fightingljm/user-dashboard/commit/d4d88b500c89ec4fac446ef3fd89e3aa557c9206)。
 
 需要注意的一点是，我们在这里如何处理 Modal 的 visible 状态，有几种选择：
 
