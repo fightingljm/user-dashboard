@@ -19,7 +19,7 @@ export function patch(id, values) {
 }
 
 export function create(values) {
-  return request(`/api/users`, {
+  return request('/api/users', {
     method: 'POST',
     body: JSON.stringify(values),
   });

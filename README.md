@@ -343,7 +343,7 @@ export function patch(id, values) {
 **Step 12. 处理用户创建**
 
 相比用户编辑，用户创建更简单些，因为可以共用 `UserModal` 组件。
-和 Step 11 比较类似，就不累述了，详见 [Commit](https://github.com/dvajs/dva-example-user-dashboard/commit/72cd7366076c025473ff4acd99815fd9b585619e) 。
+和 Step 11 比较类似，就不累述了，详见 [Commit](https://github.com/fightingljm/user-dashboard/commit/4e4cd3275ecbb94d33a4e6357a78b498e9147158) 。
 
 ---
 
