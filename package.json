@@ -10,9 +10,10 @@
     "install-node": "6.9.2"
   },
   "dependencies": {
-    "antd":"^2.13.10",
+    "antd": "^2.13.10",
     "babel-runtime": "^6.9.2",
     "dva": "^1.2.1",
+    "dva-loading": "^1.0.4",
     "react": "^15.4.0",
     "react-dom": "^15.4.0"
   },

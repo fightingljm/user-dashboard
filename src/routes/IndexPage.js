@@ -3,7 +3,7 @@ import { connect } from 'dva';
 import styles from './IndexPage.css';
 import MainLayout from '../components/MainLayout/MainLayout';
 
-function IndexPage({location}) {
+function IndexPage({ location }) {
   return (
     <MainLayout location={location}>
       <div className={styles.normal}>

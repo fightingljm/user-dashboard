@@ -205,12 +205,12 @@ $ dva g component Users/Users
 - 添加布局，src/components/MainLayout/MainLayout.js 和 CSS 文件
 - 在 src/routes 文件夹下的文件中引用这个布局
 
-参考这个 [Commit](https://github.com/dvajs/dva-example-user-dashboard/commit/94788e5167f9b2dd7b1ecdc70bb8e7bc91a9fb62)。
+参考这个 [Commit](https://github.com/fightingljm/user-dashboard/commit/9a1b9f015ce9c48ebf9ca81691f8e1b0e625638d)。
 
 > 注意：
 页头的菜单会随着页面切换变化，高亮显示当前页所在的菜单项
 
-**Step 8. 通过 [dva-loading](https://github.com/dvajs/dva-loading) 处理 loading 状态**
+**Step 8. 通过 [dva-loading](https://github.com/dvajs/dva/tree/master/packages/dva-loading) 处理 loading 状态**
 
 dva 有一个管理 effects 执行的 hook，并基于此封装了 dva-loading 插件。通过这个插件，我们可以不必一遍遍地写 showLoading 和 hideLoading，当发起请求时，插件会自动设置数据里的 loading 状态为 true 或 false 。然后我们在渲染 components 时绑定并根据这个数据进行渲染。
 
